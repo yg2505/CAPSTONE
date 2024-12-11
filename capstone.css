@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Chivo", sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin:0px 10px;
+    color:white;
+    align-items: right;
+    font-size: 20px;
+}
+ 
+.left{
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin-top:90px;
+    margin-bottom: 20px;
+}
+.main-image{
+    text-align: center;
+    padding-bottom: 70px;
+     
+}
+.main-image img{ border-radius:40px}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr );
+    gap:15px
+
+}
+ 
