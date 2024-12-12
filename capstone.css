@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
-/* font-family: "Chivo", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "MuseoModerno", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Chivo", serif; */
+
+
 
 
 *{
@@ -14,7 +18,11 @@ body{
 }
 nav{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    width: 1344px;
+    height: auto;
+    padding: 16px;
+  
 }
 nav ul{
     display: flex;
@@ -24,30 +32,55 @@ nav ul li {
     margin:0px 10px;
     color:white;
     align-items: right;
-    font-size: 20px;
 }
  
 .left{
-    font-size: 30px;
-    margin-top: 10px;
-    text-align: left;
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 500;
+    font-family: "MuseoModerno", sans-serif;
 }
-h1{
-    text-align: center;
-    font-size: 60px;
-    margin-top:90px;
-    margin-bottom: 20px;
+.right{
+    width: auto;
+    height: auto;
+    gap: 32px;
 }
+.right a{
+    line-height: 32px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Chivo", sans-serif; 
+}
+
 .main-image{
     text-align: center;
     padding-bottom: 70px;
      
 }
-.main-image img{ border-radius:40px}
-.container{
+.main-image img{ border-radius:40px;
+                max-width: 100%;}
+.container1{
     display:grid;
     grid-template-columns: repeat(3,1fr );
     gap:15px
 
 }
- 
+.container{
+    padding: 48px 0px;
+    width: 1344px;
+    height: auto;
+}
+.sec1{
+    width: 1344px;
+    height: auto;
+    border-bottom: 1px;
+    gap:48px;
+    padding: 72px 0;
+}
+h1{
+    line-height: 120px;
+    text-align: center;
+    font-family: "Chivo", sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+}
