@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "MuseoModerno", serif; */
 /* font-family: "Chivo", serif; */
@@ -8,46 +9,53 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+ 
 body{
     background-color:black;
     color:white;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto;
+    padding:0 3rem;
+   
+    
 }
 nav{
     display: flex;
     justify-content:space-between;
-    max-width: 1344px;
+    max-width: 100%;
     height: auto;
-    padding: 16px;
-  
+    padding: 1rem;
+
 }
 nav ul{
     display: flex;
 }
 nav ul li {
     list-style: none;
-    margin:0px 10px;
+    margin:0 0.6rem;
     color:white;
     align-items: right;
 }
  
 .left{
-    font-size: 42px;
-    line-height: 42px;
+    font-size: 2.6rem;
+    line-height: 2.6rem;
     font-weight: 500;
     font-family: "MuseoModerno", sans-serif;
 }
 .right{
     width: auto;
     height: auto;
-    gap: 32px;
+    gap: 2rem;
     
 }
 .right a{
-    line-height: 32px;
-    font-size: 28px;
+    line-height: 2rem;
+    font-size: 1.75rem;
     font-weight: 400;
     font-family: "Chivo", sans-serif; 
     color: white;
@@ -57,134 +65,147 @@ nav ul li {
 .container1{
     display:grid;
     grid-template-columns: repeat(3,1fr );
-    padding: 48px 0px;
-    gap: 8px;
+    gap: 1rem;
+    
 }
 .container{
-    padding: 48px 0px;
-    max-width: 1344px;
+    padding: 3rem 0;
+    max-width: 100%;
     height: auto;
     margin: auto;
 }
 .sec1{
-    max-width: 1344px;
+    max-width: 100%;
     height: auto;
-    border-bottom: 1px;
-    padding: 72px 0;
+    border-bottom: 0.063rem;
+    padding: 4.5rem 0;
     margin: auto;
     text-align: center;
 }
 h1{
-    line-height: 120px;
+    line-height: 7.5rem;
     text-align: center;
     font-family: "Chivo", sans-serif;
-    font-size: 120px;
+    font-size: 7.5rem;
     font-weight: 900;
-    padding-bottom: 48px;
+    padding-top:3rem;
+    padding-bottom: 2.5rem;
 }
 .sec1 .main-image img{
-    border-radius: 56px;
-    border: 1px solid white;
-    max-width: 1400px;
-    height:672px;
+    border-radius: 3.5rem;
+    border: 1px solid #FFFFFF00;
+    width:100%;
+    height:42rem;
     margin: auto;
+   
 }
 .item img{
-    max-width: 416px;
-    height: 277px;
-    border: 1px solid white;
+    max-width: 100%;
+    height: 17.3rem;
+    border: 1px solid #FFFFFF00;
 
 }
 .item .l1{
-    max-width: 416px;
-    line-height: 24px;
-    font-size:20px;
+    max-width: 100%;
+    line-height: 1.5rem;
+    font-size:1.25rem;
     font-family: "Archivo", sans-serif;
     font-weight: 500;
 }
 .item .l2{
-    max-width: 416px;
-    line-height: 24px;
-    font-size:17px;
+    max-width: 100%;
+    line-height: 1.5rem;
+    font-size:1.063rem;
     font-family: "Archivo", sans-serif;
     font-weight: 500;
     color: white;
     opacity: 0.6;
- 
 } 
-.container .item{
-    height: 333px;
-    max-width:416px ;
-    gap:16px;
-    margin: auto;
+.item{
+    height: 20.18rem;
+    max-width:100% ;
+    margin-bottom: 2rem;
+   
 }
 .row{
-    padding: 48px 0px;
+    padding: 3rem 0;
     width: auto;
     height: auto;
      
 }
 .sec2{
-    max-width: 1344px;
+    max-width: 100%;
     height: auto;
     margin: auto;
 }
 .sec3 p{
-    width: 672px;
-    height: 260px;
+    width: 42rem;
+    max-width: 100%;
+    height: 16.25rem;
     font-family: "Chivo", sans-serif;
     font-weight: 400;
-    font-size: 48px;
-    line-height: 52px;
+    font-size: 3rem;
+    line-height: 3.25rem;
+    margin-bottom: 4.3rem;
+    margin-top: 5rem;
 }
 .btn{
     height: auto;
     width: auto;
-    border-radius: 8px;
-    padding: 12px 24px;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    background-color: black;
+    color: white;
 }
 .btn p{
     font-family: "Archivo",sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
+    
 }
 .text p:first-child{
     font-family: "Chivo",sans-serif;
     font-weight: 900;
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    padding-bottom: 1.375rem;
 }
 .text p:last-child{
     line-height: 32px;
     font-family: "Archivo",sans-serif;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5re;
+    padding-bottom: 2.8rem;
 }
 .text{
-    max-width: 900px;
-    gap: 16px;
+    max-width: 100%;
+    gap: 1rem;
 }
 .content-on-image{
-    width: 1345px;
+    width: 84.06rem;
     height: auto;
-    padding-bottom: 48px;
-    gap: 48px;
+    padding-bottom: 10rem;
+    gap: 3rem;
     position: absolute;
-    top: 466px;
-    left: 96px;
+    top: 25rem;
+    left: 6rem;
 }
 .sec4{
     position: relative;
-    width: 1344px;
-    height: 698px;
-    
+    width: 100%;
+    height: 43.6rem;
+}
+.sec4 img{
+    width: 100%;
+    height: 43.625rem;
 }
 footer{
-    width: 1344px;
+    width: 100%;
     height: auto;
-    padding-top: 72px;
-    padding-bottom: 24px;
-    gap: 24px;
+    padding-top: 4.5rem;
+    padding-bottom: 1.5rem;
+    gap: 1.5rem;
 }
 footer ul{
     display: flex;
@@ -196,19 +217,69 @@ footer a{
     text-decoration: none;
     font-family: "Chivo",sans-serif;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 1.75rem;
+    line-height: 2rem;
     opacity: 0.6;
 }
 footer button{
-    border-radius: 8px;
+    border-radius: 0.5rem;
     height: auto;
     width: auto;
     border:1px solid rgba(255,255,255,0.16);
-    padding:12px 24px;
+    padding:0.75rem 1.5rem;
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Archivo",sans-serif;
     font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .container1 {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 2rem; 
+    }
+
+    .sec1 .main-image img {
+        height: 42rem;  
+    }
+
+    .sec3 p {
+        
+        line-height: 3rem;
+         
+    }
+}
+
+@media (max-width: 768px) {
+    .container1 {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 2.5rem;  
+    }
+
+    .sec1 .main-image img {
+        height: 42rem;  
+    }
+    .item{margin-bottom: 4rem;}
+
+    .sec3 p {
+        margin-bottom: 10rem;
+        line-height: 2.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .container1 {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 3rem;  
+    }
+
+    .sec1 .main-image img {
+        height: 42rem;  
+    }
+    .item{margin-bottom: 5rem;}
+    .sec3 p {
+        margin-bottom: 10rem;
+        line-height: 2rem;
+         
+    }
 }
